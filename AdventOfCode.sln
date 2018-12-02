@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", "{B94CE633-80EF-4582-97ED-8A15B9DCEDEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01", "Day01\Day01.csproj", "{B94CE633-80EF-4582-97ED-8A15B9DCEDEF}"
 EndProject
-Project("{A59371CC-72CD-46C4-8E8B-4B159F4E70EC}") = "Day2", "Day2\Day2.csproj", "{D460E854-BA97-42E2-8FE2-02806DC3D48F}"
+Project("{A59371CC-72CD-46C4-8E8B-4B159F4E70EC}") = "Day02", "Day02\Day02.csproj", "{D460E854-BA97-42E2-8FE2-02806DC3D48F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
