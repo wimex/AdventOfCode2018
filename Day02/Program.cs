@@ -9,7 +9,7 @@ namespace Day2
     {
         static void Main(string[] args)
         {
-            string[] lines = File.ReadAllLines("input1.txt");
+            string[] lines = File.ReadAllLines("input.txt");
             int dbl = 0;
             int tpl = 0;
 

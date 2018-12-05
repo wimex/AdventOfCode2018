@@ -9,7 +9,7 @@ namespace Day03
     {
         static void Main(string[] args)
         {
-            string[] lines = File.ReadAllLines("input1.txt");
+            string[] lines = File.ReadAllLines("input.txt");
             List<Tuple<string, int, int, int, int>> claims = new List<Tuple<string, int, int, int, int>>();
             int[,] fabric = new int[1000, 1000];
 
