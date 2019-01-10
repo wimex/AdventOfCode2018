@@ -12,26 +12,30 @@ namespace Day1
             string[] lines = File.ReadAllLines("input.txt");
             List<int> history = new List<int>();
             int current = 0;
+            bool print = false;
 
             while (true) {
                 foreach (string line in lines)
                 {
-                    int number = int.Parse(line.Substring(1));
-                    if (line[0] == '+')
-                        current += number;
-                    else
-                        current -= number;
+                    int number = int.Parse(line);
+                    current += number;
 
                     if (history.Contains(current))
-                        goto found;
-                    else
-                        history.Add(current);
+                    {
+                        Console.WriteLine($"Stable: {current}");
+                        Console.ReadKey();
+                        return;
+                    }
+
+                    history.Add(current);
+                }
+
+                if (!print)
+                {
+                    Console.WriteLine($"Summary: {current}");
+                    print = true;
                 }
             }
-
-        found:
-            Console.WriteLine(string.Join(',', history) + "," + current);
-            Console.ReadKey();
         }
     }
 }
